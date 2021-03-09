@@ -23,7 +23,7 @@ void TL64(){
             printf("Downloading...\n");
             if(!Download("https://github.com/IanSkinner1982/C64-title-loader/releases/latest/download/loader.d64", "loader.d64")){printf("Done.\n");};
             sleep(1);
-            c64tl(); }
+            TL64(); }
         if(storeChoice==50)Store();}
 }
 void CC64(){
@@ -42,7 +42,7 @@ void CC64(){
             printf("Downloading...\n");
             if(!Download("https://github.com/IanSkinner1982/Cookie-Clicker-C64/releases/latest/download/Cookie.Clicker.d64", "cookie.d64")){printf("Done.\n");};
             sleep(1);
-            c64tl(); }
+            CC64(); }
         if(storeChoice==50)Store();}
 }
 void TTT64(){
@@ -61,7 +61,7 @@ void TTT64(){
             printf("Downloading...\n");
             if(!Download("https://github.com/IanSkinner1982/Tic-Tac-Toe-C64/releases/latest/download/tictactoe.d64", "tic-tac-toe.d64")){printf("Done.\n");};
             sleep(1);
-            c64tl(); }
+            TTT64(); }
         if(storeChoice==50)Store();}
 }
 void MG64(){
@@ -80,6 +80,6 @@ void MG64(){
             printf("Downloading...\n");
             if(!Download("https://github.com/IanSkinner1982/Random-BASIC-Projects/blob/main/Math-Game-C64/build/math.prg", "math-game.prg")){printf("Done.\n");};
             sleep(1);
-            c64tl(); }
+            MG64(); }
         if(storeChoice==50)Store();}
 }

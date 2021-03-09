@@ -53,12 +53,13 @@ void Store(){
         if(menuChoice==50)TL64();
         if(menuChoice==51)CC64();
         if(menuChoice==52)TTT64();
-        if(menuChoice==53)MG64();
+        if(menuChoice==53)MG64();}
         //if(menuChoice==54)();
         //if(menuChoice==55)();
         //if(menuChoice==56)();}
 }
 int main(void){
+    clrScrn();
     printf("Welcome to Ian's fork of NCX-Core-Lite!\n\n");
     printf("NCX-Core-Lite,  Copyright (C) 2021  NCX-Programming/NinjaCheetah\nThis program comes with ABSOLUTELY NO WARRANTY.\nThis is free software, and you are welcome to redistribute it\nunder certain conditions; view the full license in the repo.\n\n");
     printf("Press ENTER to view available software");

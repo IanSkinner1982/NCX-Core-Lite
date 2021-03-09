@@ -6,10 +6,9 @@
 #define STORE_DOT_H
 
 // Declare store functions
-void ldsifd();
-void fkpcmn();
-void fkapt();
-void vaultc();
-void c64tl();
+void TL64();
+void CC64();
+void TTT64();
+void MG64();
 
 #endif /* STORE_DOT_H */

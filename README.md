@@ -1,2 +1,2 @@
 # NCX-Core-Lite
-The CLI version of my open-source app store. Here to stop you from having to chase new commits and releases.
+A fork of NinjaCheetah's NCX-Core-Lite. Includes downloads for some of my C64 programs.
